@@ -130,6 +130,7 @@ background-color: #deddf1;
 .feedbacker{
     display: flex;
     gap: 12px;
+    align-items: center;
 }
 .viewer{
     width: 40px;
@@ -142,4 +143,16 @@ background-color: #deddf1;
 }
 .date{
     color: #B3B3B3;
+}
+
+/* Let’s Get In Touch Section */
+.touch-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.right-side{
+    display: block;
 }

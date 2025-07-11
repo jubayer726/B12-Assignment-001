@@ -50,7 +50,7 @@ width: 100%;
 }
 /* Action Section */
 .main{
-    margin:116px 159px 116px 141px;
+    margin:116px 159px 0px 141px;
 }
 .action-section{
     display: flex;
@@ -145,6 +145,24 @@ background-color: #deddf1;
     color: #B3B3B3;
 }
 
+/* Ready to focus better */
+.focus-better{
+    text-align: center;
+    padding: 71px 150px;
+
+}
+.focus-title{
+   font-size: 50px;
+   font-weight: bold;
+}
+.focus-des{
+    font-size: 16px;
+    font-weight: 300px;
+}
+.focus-igm{
+    border-radius: 48px;
+}
+
 /* Let’s Get In Touch Section */
 .touch-section{
     display: flex;
@@ -183,5 +201,31 @@ padding: 20px 32px;
 border-radius: 10px;
 border: none;
 width: 557px;
+}
 
+/* Footer Section */
+.footer-section{
+    text-align: center;
+    padding: 104px 454px;
+}
+.footer-title{
+    font-size: 100px;
+    font-weight: 900px;
+    color: #4E47FF;
+}
+.footer-des{
+   color: #8987A1; 
+}
+.footer-link ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 20px 65px;
+
+
+}
+.footer-link ul li a{
+    text-decoration: none;
+    color: #8987A1;
 }

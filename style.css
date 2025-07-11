@@ -148,11 +148,40 @@ background-color: #deddf1;
 /* Let’s Get In Touch Section */
 .touch-section{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    padding: 92px 0px;
+    justify-content: space-between;
+}
+.setion-title{
+    font-size: 97px;
+    font-weight: bold;
+    padding-right: 10px;
 }
 
-
 .right-side{
-    display: block;
+    /* justify-content: left; */
+}
+.input-title{
+    font-size: 18px;
+    font-weight: 500;
+}
+.input-des{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 32px;
+    background-color: hsl(0, 20%, 97%);
+    width: 497px;
+    border-radius: 10px;
+    border: none;
+}
+.touch-btn{
+background-color: #4E47FF;
+font-size: 16px;
+font-weight: bold;
+color: white;
+padding: 20px 32px;
+border-radius: 10px;
+border: none;
+width: 557px;
+
 }
